@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ananya Dwivedi | Portfolio</title>
+<style>
+:root{--navy:#172554;--blue:#3156a3;--ink:#172033;--muted:#64748b;--bg:#f6f8fc;--line:#e4e9f2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+nav{max-width:1050px;margin:auto;padding:16px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{font-weight:800;color:var(--navy);letter-spacing:.4px}.navlinks{display:flex;gap:22px;flex-wrap:wrap}.navlinks a{color:#475569;text-decoration:none;font-size:14px}
+main{max-width:1000px;margin:auto;padding:48px 22px 70px}
+.hero{background:linear-gradient(135deg,#172554,#3156a3);color:white;padding:58px 48px;border-radius:24px;box-shadow:0 16px 40px #17255420}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:#c7d7ff;font-weight:700}
+h1{font-size:clamp(38px,7vw,58px);line-height:1.08;margin:12px 0}
+.hero p{max-width:650px;color:#e3eaff;font-size:17px}
+.btn{display:inline-block;margin-top:16px;padding:11px 18px;background:white;color:var(--navy);border-radius:10px;text-decoration:none;font-weight:700;font-size:14px}
+section{margin-top:42px}.section-title{font-size:25px;color:var(--navy);margin:0 0 18px}
+.card{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 5px 18px #17255408}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card h3{margin:0 0 8px;color:#1e3a70}.card p{margin:0;color:var(--muted)}
+.tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}.tag{background:#edf2ff;color:#294786;border-radius:30px;padding:6px 11px;font-size:13px;font-weight:600}
+ul{padding-left:20px;margin:10px 0 0;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:48px}
+a.inline{color:var(--blue);font-weight:600;text-decoration:none}
+@media(max-width:650px){.hero{padding:38px 25px}.grid{grid-template-columns:1fr}.navlinks{gap:12px}.navlinks a{font-size:12px}}
+</style>
+</head>
+<body>
+<header><nav><div class="logo">ANANYA DWIVEDI</div><div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a></div></nav></header>
+<main>
+<div class="hero">
+<div class="eyebrow">Computer Science Engineering Student</div>
+<h1>Hi, I'm Ananya.</h1>
+<p>I'm a second-year CSE student interested in programming, problem-solving, and building useful technology. I'm continuously learning and exploring opportunities to grow as a developer.</p>
+<a class="btn" href="#projects">Explore my work</a>
+</div>
+
+<section id="about"><h2 class="section-title">About Me</h2><div class="card">
+<p>I'm pursuing a B.Tech in Computer Science and Engineering at KCC Institute of Technology and Management. I enjoy learning programming concepts, strengthening my problem-solving skills, and collaborating on ideas that use technology to make learning and everyday tasks better.</p>
+</div></section>
+
+<section id="skills"><h2 class="section-title">Skills</h2><div class="card">
+<div class="tags"><span class="tag">C Programming</span><span class="tag">Python (Basic)</span><span class="tag">Microsoft Excel</span><span class="tag">PowerPoint</span><span class="tag">Microsoft Word</span><span class="tag">Problem Solving</span></div>
+</div></section>
+
+<section id="projects"><h2 class="section-title">Projects</h2><div class="grid">
+<div class="card"><h3>Technovators</h3><p>A student-and-teacher focused platform concept designed to support AI-enabled classrooms and improve the learning experience.</p><div class="tags"><span class="tag">EdTech</span><span class="tag">AI</span><span class="tag">Team Project</span></div></div>
+<div class="card"><h3>More projects coming soon</h3><p>I'm continuing to practise programming and build projects as I develop my technical skills.</p><div class="tags"><span class="tag">Learning</span><span class="tag">Development</span></div></div>
+</div></section>
+
+<section id="achievements"><h2 class="section-title">Achievements & Learning</h2><div class="grid">
+<div class="card"><h3>AIdeate ’26 — 2nd Position</h3><p>Recognized with my team for our work on responsible AI and cybersecurity.</p></div>
+<div class="card"><h3>LeetCode Practice</h3><p>Practising data structures and algorithms in C and steadily improving problem-solving skills.</p></div>
+</div></section>
+
+<section id="contact"><h2 class="section-title">Let's Connect</h2><div class="card">
+<p>I'm open to learning opportunities, collaboration, and connecting with fellow students and developers.</p>
+<p style="margin-top:12px"><a class="inline" href="https://www.linkedin.com/in/ananya-dwivedi-8115a6393/" target="_blank" rel="noopener">LinkedIn profile</a></p>
+<p style="margin-top:8px;color:#64748b;font-size:13px">Add your GitHub profile URL here after publishing, if you want to showcase your code.</p>
+</div></section>
+<footer>© 2026 Ananya Dwivedi · Personal Portfolio</footer>
+</main>
+</body>
+</html>
